@@ -43,3 +43,12 @@ void FamilyTree::clear()
     }
 
 // ==========================================================================
+
+void FamilyTree::injectFiles ( std::string xmlFile , std::string gtrFile )
+    {
+        if( !xmlFile.empty () )
+            xmlFileStream.open ( xmlFile );
+
+        if( !gtrFile.empty () )
+            gtrFileStream.open ( gtrFile );
+    }
