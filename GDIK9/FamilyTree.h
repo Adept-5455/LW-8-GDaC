@@ -23,11 +23,12 @@ class FamilyTree
     public:
             FamilyTree();
             FamilyTree( std::string , std::string  ) ;
+            ~FamilyTree();
 
-            void injectFiles( std::string, std::string );
             bool xmlFileIsOpen();
             bool gtrFileIsOpen();
 
+            void injectFiles( std::string, std::string );
             void loadGtrData();
             void loadXmlData();
             void writeGtrData();
