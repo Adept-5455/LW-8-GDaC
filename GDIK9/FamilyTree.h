@@ -3,7 +3,10 @@
 
 #include <string>
 #include <vector>
+#include <iostream>
 #include <fstream>
+
+void trimXmlSign( std::string& ) ;
 
 struct person
     {
@@ -11,6 +14,7 @@ struct person
         std::string surname;
         std::string bdate;
         std::string gender;
+        std::string level;
     };
 
 class FamilyTree
