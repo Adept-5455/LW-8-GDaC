@@ -1,0 +1,33 @@
+<tree>
+	<person>
+	  <name> Name1 </name>
+	  <surname> Surname1 </surname>
+	  <gender> Male </gender>
+	  <bdate> 19.3.1949 </bdate>
+	  <level> 1 </level>  
+	</person>
+
+	<person>  
+	  <name> Name2 </name>
+	  <surname> Surname2 </surname>
+	  <gender> Female </gender>
+	  <bdate> 9.5.1952 </bdate>
+	  <level> 1 </level>	   
+	</person>
+
+	<person>  
+	  <name> Name3 </name>
+	  <surname> Surname3 </surname>
+	  <gender> Male </gender>
+	  <bdate> 3.8.1965 </bdate>
+	  <level> 2 </level>	    
+	</person>	
+
+	<person>  
+	  <name> Name4 </name>
+	  <surname> Surname4 </surname>
+	  <gender> Female </gender>
+	  <bdate> 2.8.1971 </bdate>
+	  <level> 2 </level>	    
+	</person>	
+</tree> 
