@@ -37,4 +37,9 @@ bool FamilyTree::gtrFileIsOpen ()
         return false;
     }
 
+void FamilyTree::clear()
+    {
+        data.clear();
+    }
+
 // ==========================================================================

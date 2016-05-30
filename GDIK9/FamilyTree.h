@@ -34,7 +34,7 @@ class FamilyTree
             void writeGtrData();
             void writeXmlData();
 
-            void erase();
+            void clear();
     };
 
 #endif // FAMILYTREE_H
